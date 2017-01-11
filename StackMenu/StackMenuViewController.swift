@@ -26,13 +26,26 @@ class StackMenuViewController: UIViewController {
     
     var headerString:String!{
         didSet{
-            configView()
+            configViewTitle()
         }
         
     }
-    func configView(){
+    
+    var descString:String!{
+        didSet{
+            configViewDescrption()
+        }
+        
+    }
+    
+    func configViewTitle(){
         headerLabel.text = headerString
     }
+    func configViewDescrption(){
+        descrptionLabel.text = descString
+    }
+    
+    
 
     /*
     // MARK: - Navigation

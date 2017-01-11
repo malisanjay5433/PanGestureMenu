@@ -56,15 +56,39 @@
 		3DC514021E260AF60009693F /* StackMenu */ = {
 			isa = PBXGroup;
 			children = (
+				3DC514191E26683E0009693F /* Controller */,
+				3DC514181E2668340009693F /* Model */,
+				3DC514171E2668280009693F /* View */,
 				3DC514031E260AF60009693F /* AppDelegate.swift */,
-				3DC514051E260AF60009693F /* ViewController.swift */,
-				3DC514071E260AF60009693F /* Main.storyboard */,
 				3DC5140A1E260AF60009693F /* Assets.xcassets */,
-				3DC5140C1E260AF60009693F /* LaunchScreen.storyboard */,
 				3DC5140F1E260AF60009693F /* Info.plist */,
-				3DC514151E260D890009693F /* StackMenuViewController.swift */,
 			);
 			path = StackMenu;
+			sourceTree = "<group>";
+		};
+		3DC514171E2668280009693F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DC514071E260AF60009693F /* Main.storyboard */,
+				3DC5140C1E260AF60009693F /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3DC514181E2668340009693F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3DC514191E26683E0009693F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DC514051E260AF60009693F /* ViewController.swift */,
+				3DC514151E260D890009693F /* StackMenuViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
