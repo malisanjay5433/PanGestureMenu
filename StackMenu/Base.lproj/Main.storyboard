@@ -26,21 +26,21 @@
                                 <rect key="frame" x="-5" y="0.0" width="380" height="460"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jga-zk-M4l">
-                                <rect key="frame" x="16" y="28" width="117" height="25"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                                <rect key="frame" x="16" y="14" width="105" height="22"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="like_filled" translatesAutoresizingMaskIntoConstraints="NO" id="YGa-fA-4qi">
-                                <rect key="frame" x="137" y="21" width="40" height="40"/>
+                                <rect key="frame" x="129" y="13" width="25" height="25"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="ld8-f3-Khl"/>
-                                    <constraint firstAttribute="width" constant="40" id="yii-dB-fbb"/>
+                                    <constraint firstAttribute="width" constant="25" id="TUK-k3-l4V"/>
+                                    <constraint firstAttribute="height" constant="25" id="Z7x-ee-fvz"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Sanjay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hA-Xy-x18">
-                                <rect key="frame" x="181.5" y="29" width="110.5" height="25"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                                <rect key="frame" x="162" y="15" width="99.5" height="22"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -48,17 +48,18 @@
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gjk-rE-iaZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="0KV-4M-mym"/>
-                            <constraint firstItem="jga-zk-M4l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="3Ga-9P-1C6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5hA-Xy-x18" secondAttribute="trailing" constant="67" id="6Ss-Rc-N5P"/>
-                            <constraint firstItem="5hA-Xy-x18" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="9" id="Fcg-8Q-ZdY"/>
-                            <constraint firstItem="5hA-Xy-x18" firstAttribute="leading" secondItem="YGa-fA-4qi" secondAttribute="trailing" constant="4.5" id="TFG-UT-v9c"/>
-                            <constraint firstItem="5hA-Xy-x18" firstAttribute="centerY" secondItem="YGa-fA-4qi" secondAttribute="centerY" id="bb4-r5-5Jt"/>
+                            <constraint firstItem="jga-zk-M4l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-6" id="3Ga-9P-1C6"/>
+                            <constraint firstItem="YGa-fA-4qi" firstAttribute="centerY" secondItem="jga-zk-M4l" secondAttribute="centerY" id="CRY-mm-tJX"/>
+                            <constraint firstItem="YGa-fA-4qi" firstAttribute="leading" secondItem="jga-zk-M4l" secondAttribute="trailing" constant="8" id="EFY-hk-hMZ"/>
+                            <constraint firstItem="5hA-Xy-x18" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-5" id="Fcg-8Q-ZdY"/>
+                            <constraint firstItem="5hA-Xy-x18" firstAttribute="leading" secondItem="YGa-fA-4qi" secondAttribute="trailing" constant="8" id="W2A-h5-YLO"/>
                             <constraint firstItem="gjk-rE-iaZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-21" id="bfg-4H-f6k"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gjk-rE-iaZ" secondAttribute="trailing" constant="-16" id="gCY-Y8-YPf"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gjk-rE-iaZ" secondAttribute="bottom" constant="207" id="lOh-Zk-fB5"/>
                             <constraint firstItem="jga-zk-M4l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="t0k-SA-Tty"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -120,6 +121,7 @@ And share your own at rememberingsteve@apple.com</string>
                             <constraint firstItem="yjV-ef-pAI" firstAttribute="leading" secondItem="7ja-xm-sak" secondAttribute="leading" id="w17-Ph-JwB"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="descrptionLabel" destination="uzz-iV-tlm" id="2y2-53-PvS"/>
                         <outlet property="headerLabel" destination="BKZ-2t-TbP" id="Vnt-uR-kiK"/>
